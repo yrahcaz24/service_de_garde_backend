@@ -5,10 +5,19 @@ const attendanceSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    dateTime: {
+    date: {
+        type: String,
+        required: false,
+    },
+    arrivalTime: {
+        type: String,
+        required: false,
+    },
+    departureTime: {
         type: String,
         required: false,
     }
+    
 })
 
 // exporting our child schema

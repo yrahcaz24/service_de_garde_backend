@@ -53,7 +53,7 @@ const childSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    paimentHistory : {
+    paymentHistory : {
         type: String,
         required: false,
     },

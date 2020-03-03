@@ -49,7 +49,15 @@ const childSchema = new mongoose.Schema({
         type: String,
         required: false,
     },
-    contacts : {
+    trustedContacts : {
+        type: String,
+        required: false,
+    },
+    coordPrincipal : {
+        type: String,
+        required: true,
+    },
+    coordSecondary : {
         type: String,
         required: true,
     },

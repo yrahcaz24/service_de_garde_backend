@@ -9,6 +9,10 @@ const educatorSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    dateOfBirth: {
+        type: String,
+        required: true,
+    },
     hiredDate: {
         type: String,
         required: true,
